@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgba(163, 48, 137, 61%);
+}
+main{
+margin: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px;
+}
+h1{
+  font-weight: normal;
+  margin: 30px;
+}
+section{
+  display: flex;
+}
+.first{
+  width: 70%;
+  margin: 100px 0;
+}
+.first p{
+  width: 40%;
+ margin: 30px;
+}
+.first img{
+   padding: 10px; 
+}
+.second img{
+  display: inline;
+  
+}
+.second img:nth-child(1){
+  rotate: 180deg;
+  margin-right: 100px;
+ 
+}
+.second img:nth-child(2){
+  margin-left: 80px;
+}
+button{
+  border: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: -80px auto;
+}
+
